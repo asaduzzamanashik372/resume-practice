@@ -14,7 +14,7 @@
   }
   .container{
     max-width: 1000px;
-    min-height: 1300px;
+    min-height: 1500px;
     margin: 50px auto;
     box-shadow: 5px 6px 30px 0px;
     display: flex;
@@ -55,6 +55,11 @@
   .contact-title{
     margin
   }
+  .phone-icon-container{
+    display: flex;
+    align-items: center;
+  }
+
   .reference-container{
     border-bottom: 1px dashed white;
   }
@@ -95,7 +100,7 @@
     
   }
   .about-container{
-    margin-top: 65px;
+    margin-top: 20px;
   }
   .about-title{
     margin-left: 130px;
@@ -123,5 +128,15 @@
     margin-left: 130px;
     margin-right: 60px;
     
+  }
+  .skills-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 140px;
+    margin-right: 20px;
+  }
+  .skill-title{
+    margin-left: 140px;
+    margin-top: 40px;
   }
  
